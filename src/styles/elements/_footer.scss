@@ -1,0 +1,15 @@
+.c-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    &__link {
+        text-decoration: none;
+        color: $c-yellow;
+        transition: all 0.25s;
+        &:hover {
+            color: $c-white;
+            font-size: 2.4rem;
+        }
+    }
+}

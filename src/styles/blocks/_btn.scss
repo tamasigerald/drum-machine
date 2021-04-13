@@ -1,0 +1,20 @@
+.btn {
+    border: 0;
+    // margin: 5%;
+    &--pad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $c-marron;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        &:active {
+            background-color: $c-yellow;
+        }
+
+        &--active {
+            background-color: $c-yellow;
+        }
+    }
+}
